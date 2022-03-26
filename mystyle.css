@@ -10,10 +10,10 @@ html{
 }
 
 .ul1{
-   
+    display: block;
     margin-top: 0px;
     padding-left: 0;
-    width: 100px;
+    width: 90px;
     position: fixed;
     height: 100%;
     background-color: #ffc500;
@@ -34,15 +34,16 @@ html{
 #img2{
     width: 70px;
     height: 70px;
-    margin: 0px;
+    margin-left: -30px;
     margin-top: 0px;
-    padding: 15px;
+   
+    padding-left: 0px;
 }
 
 #img3{
     width: 30px;
     height: 30px;
-    margin: 0px;
+    margin-left: -45px;
     margin-top: 0px;
     padding: 35px;
 }
@@ -51,4 +52,26 @@ h1{
     padding-top: 100px;
     margin-left: 200px;
 }
+.box1{
+   
+  margin-left: 200px;
+  margin-right: 400px;
+  margin-bottom: 200px;
+  
+  width: 800px;
+  height: 1000px;
+  background-color: #ffffff;
+
+}
+ #passage{
+     margin-right: 350px;
+ }
+
+ #site_underline{
+    text-decoration:none;
+    color: #328792;
+    
+
+    
+ }
 
