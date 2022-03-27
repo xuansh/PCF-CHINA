@@ -19,6 +19,7 @@ html{
     background-color: #ffc500;
     list-style-type: none;
     overflow: auto;
+    vertical-align: baseline;
 }
 
 #h1{
@@ -48,6 +49,25 @@ html{
     padding: 35px;
 }
 
+#img3:hover{
+    background-color: dimgray;
+}
+
+
+#img4{
+    width: 29px;
+    height: 29px;
+    margin-left: -45px;
+    margin-top: 0px;
+    padding: 33px;
+
+}
+#img4:hover{
+    background-color: dimgray;
+}
+
+
+
 h1{
     padding-top: 100px;
     margin-left: 200px;
@@ -56,12 +76,12 @@ h1{
    
   margin-left: 200px;
   margin-right: 400px;
-  margin-bottom: 200px;
+  margin-bottom: 200px; 
   
   width: 800px;
   height: 1000px;
   background-color: #ffffff;
-
+  border-radius: 3%;
 }
  #passage{
      margin-right: 350px;
@@ -72,5 +92,19 @@ h1{
  #site_underline{
     text-decoration:none;
     color: #328792;
+}
+
+#page2_img1{
+    
+    width: 200px; 
+    height: 200px;
+}
+.ul2{
+    display: inline;
+    margin-top: 0px;
+    width: 90px;
+    height: 100%;
+    position: relative;
+    left: 100px;
 }
 
