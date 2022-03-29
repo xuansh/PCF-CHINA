@@ -108,3 +108,7 @@ h1{
     left: 100px;
 }
 
+#site_underline_color{
+    text-decoration:none;
+    color: #ff4d4d;
+}
