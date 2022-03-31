@@ -66,6 +66,17 @@ html{
     background-color: dimgray;
 }
 
+#img5{
+    width: 25px;
+    height: 25px;
+    margin-left: -45px;
+    margin-top: 0px;
+    padding: 35px;
+}
+
+#img5:hover{
+    background-color: dimgray;
+}
 
 
 h1{
