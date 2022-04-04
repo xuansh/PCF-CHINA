@@ -94,6 +94,21 @@ h1{
   background-color: #ffffff;
   border-radius: 3%;
 }
+
+
+.box2{
+   
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-bottom: 200px; 
+    
+    width: 800px;
+    height: 1500px;
+    background-color: #ffffff;
+    border-radius: 100px;
+  }
+
+
  #passage{
      margin-right: 350px;
      position: relative; 
