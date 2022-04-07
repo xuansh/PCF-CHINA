@@ -22,51 +22,8 @@ html{
     
 }
 
-#page3_side:hover{
-    animation: action2 3s infinite;
-}
 
-#page3_body{
-    animation: action3 3s infinite;
-}
 
-@keyframes action {
-
-    0%,30%{
-            background-color: #ffc500;
-        }
-    60%,70%{
-            background-color: #ff4d4d;
-        }
-
-}
-
-@keyframes action2 {
-
-    0%{
-            background-color:firebrick;
-        }
-    50%{
-            background-color: #4d0505;
-        }
-    100%{
-            background-color: firebrick;
-    }
-}
-
-@keyframes action3 {
-    0%{
-            background-color: #8b0606;
-    }
-   
-    50%{
-            background-color:rgb(15, 44, 87);
-    }
-    100%
-    {
-            background-color: #8b0606;
-    }
-}
 
 #h1{
     margin-left: 100px;
@@ -196,4 +153,13 @@ h1{
 #site_underline_color{
     text-decoration:none;
     color: #ff4d4d;
+}
+
+#page2_body{
+    background: radial-gradient(circle at center,navy,black);
+}
+
+#page3_body{
+    background: radial-gradient(circle at center,red,black);
+    
 }
