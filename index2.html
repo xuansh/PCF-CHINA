@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nob-6154</title>
+        <link rel="stylesheet" href="css/mystyle.css">
+        <script src="jquery-1.10.2.min.js"></script>
+    </head>
+    <body id="body2">
+        <div class="ul1_body2">
+          <ul>
+          <img id="img2" src="img/logo.jpg">
+            <a href="index2.html"><img id="img3" src="https://s1.328888.xyz/2022/03/26/JJeQQ.png"></a>
+            <a href="page3.htm"><img id="img5" src="https://s1.328888.xyz/2022/03/31/LQey3.png"></a> 
+            <a href="page4.html"><img id="img6" src="https://s1.328888.xyz/2022/04/04/LmYsZ.png";></a>
+        </ul> 
+        </div>
+         <h1 style="color: antiquewhite;">Nob-6154</h1>
+         <div id="time_recorder">
+          <span id="span_dt_dt"></span>
+          </div>
+          <script>
+              function show_date_time() {
+                  window.setTimeout("show_date_time()", 1000);
+                  BirthDay = new Date("4/3/2022 23:00:01");
+                  today = new Date();
+                  //总时间
+                  timeold = (today.getTime() - BirthDay.getTime());
+                  sectimeold = timeold / 1000
+                  secondsold = Math.floor(sectimeold); 
+                  msPerDay = 24 * 60 * 60 * 1000
+                  e_daysold = timeold / msPerDay
+                  daysold = Math.floor(e_daysold);
+                  e_hrsold = (e_daysold - daysold) * 24;
+                  hrsold = Math.floor(e_hrsold);
+                  e_minsold = (e_hrsold - hrsold) * 60;
+                  minsold = Math.floor((e_hrsold - hrsold) * 60);
+                  seconds = Math.floor((e_minsold - minsold) * 60);
+                  span_dt_dt.innerHTML = "小破站已运行：" + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+              }
+              show_date_time();
+          </script>
+        <div class="box1_body2">
+            
+            <p style="position: relative; left: 100px; font-size: 40px;color: aliceblue;"><br><br>简介</p>
+            <p id="passage" style="position: relative; left: 130px; "></p>
+            <!--<audio id="audio" src="https://link.jscdn.cn/sharepoint/aHR0cHM6Ly8xZHJpdi1teS5zaGFyZXBvaW50LmNvbS86dTovZy9wZXJzb25hbC9zdG9yXzFkcml2X29ubWljcm9zb2Z0X2NvbS9FUWtFNzZXekFsTk5uLWZGaUpDUkFKWUI0bVJoMm5fVzRoOGdVNkNRU1JKLWRRP2U9cmFBN1Q2.mp3"></audio>
+           
+          
+        <script type="text/javascript">
+              function play(){
+              document.getElementById("audio").play();
+              }
+          </script>-->
+        </div>  
+        
+          
+          
+    </body>
+</html>
